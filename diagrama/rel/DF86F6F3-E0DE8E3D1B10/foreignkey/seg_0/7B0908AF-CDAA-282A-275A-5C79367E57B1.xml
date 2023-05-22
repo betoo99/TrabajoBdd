@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7B0908AF-CDAA-282A-275A-5C79367E57B1" containerWithKeyObject="70FB5E78-94C4-D12C-8A59-1DD4D4C4646C" localFKIndex="0AC55C20-2CC1-80B0-CCD3-B5EB8199C376" name="FK_VENT_CLI">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>FK_VENT_CLI</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:23 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<referredTableLongName>SYS.CLIENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7E3D3CA4-D0D3-E45D-24A4-D2EA2535F289</referredTableID>
+<keyObject>2A4C677B-45DC-59F1-5489-AD5A5881342B</keyObject>
+<referredKeyID>2A4C677B-45DC-59F1-5489-AD5A5881342B</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>DNI</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

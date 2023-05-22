@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4BC80DCB-40BB-F967-3133-ADE525AD5FB7" schemaObject="C60D2F7F-D513-C09B-47DF-1F39335E65E7" name="SUMINISTRA_PROV_COMP_PROD">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SUMINISTRA_PROV_COMP_PROD</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:21 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COMPRA" id="F51102B1-39BB-30FD-EAB8-57C97F53DEBF">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>SUMINISTRA_PROV_COMP_PROD</sourceObjSchema>
+<sourceObjName>ID_COMPRA</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1C9FBCA-13C7-E3A7-06C9-4BCAE1983B82" referredColumn="84E01840-A85E-F0E9-389B-DE082AAD3843"/>
+</associations>
+</Column>
+<Column name="ID_PRODUCTO" id="C2B27614-959A-5B68-4A16-44BC6BFD6827">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>SUMINISTRA_PROV_COMP_PROD</sourceObjSchema>
+<sourceObjName>ID_PRODUCTO</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6E70C54-1733-37D4-5A31-6F050305D4D5" referredColumn="F89E787A-6018-0DDD-1854-1EB1F092E891"/>
+</associations>
+</Column>
+<Column name="DNI" id="51F9A452-00F0-3941-994F-DB1FB7539DB4">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>SUMINISTRA_PROV_COMP_PROD</sourceObjSchema>
+<sourceObjName>DNI</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B56BBDD-7007-BC9F-18A5-81832635F4A6" referredColumn="4495F0E9-1F41-B574-D109-CD4833DE2759"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="989EBCB9-7576-2E67-049B-4D5BDC2F3D3B" name="PK_SUMINISTRA_PROV_COMP_PROD">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>PK_SUMINISTRA_PROV_COMP_PROD</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:23 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F51102B1-39BB-30FD-EAB8-57C97F53DEBF"/>
+<colUsage columnID="C2B27614-959A-5B68-4A16-44BC6BFD6827"/>
+<colUsage columnID="51F9A452-00F0-3941-994F-DB1FB7539DB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C787D08C-A53C-18AD-CD32-35DA08A4D326" schemaObject="C60D2F7F-D513-C09B-47DF-1F39335E65E7" name="PK_SUMINISTRA_PROV_COMP_PROD">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>PK_SUMINISTRA_PROV_COMP_PROD</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F51102B1-39BB-30FD-EAB8-57C97F53DEBF"/>
+<colUsage columnID="C2B27614-959A-5B68-4A16-44BC6BFD6827"/>
+<colUsage columnID="51F9A452-00F0-3941-994F-DB1FB7539DB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A008F605-F569-7075-0F1A-B09CD7B10C2F" name="FK_DNI">
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:23 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51F9A452-00F0-3941-994F-DB1FB7539DB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E585C8EB-014A-3E3D-78AF-AD3DA130FCCB" name="FK_ID_COMPRA">
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:23 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F51102B1-39BB-30FD-EAB8-57C97F53DEBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="051960A0-0671-1DAD-B05A-FB45BFCF734E" name="FK_ID_PRODUCTOS">
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:23 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C2B27614-959A-5B68-4A16-44BC6BFD6827"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

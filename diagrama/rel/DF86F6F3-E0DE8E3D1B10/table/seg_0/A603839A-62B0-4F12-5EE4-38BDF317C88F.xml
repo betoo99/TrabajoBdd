@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A603839A-62B0-4F12-5EE4-38BDF317C88F" schemaObject="C60D2F7F-D513-C09B-47DF-1F39335E65E7" name="FACTURACION">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>FACTURACION</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:21 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FACTURACION" id="05E070C7-8312-8872-0487-1BA677F0A00D">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>FACTURACION</sourceObjSchema>
+<sourceObjName>ID_FACTURACION</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHAFACTURACION" id="2D3321D3-25F0-B06C-A307-587714B96A40">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>FACTURACION</sourceObjSchema>
+<sourceObjName>FECHAFACTURACION</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTALFACTURACION" id="EF00B392-429E-4123-1061-8DBB9504327B">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>FACTURACION</sourceObjSchema>
+<sourceObjName>TOTALFACTURACION</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,15,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_VENTA" id="66530745-8440-A79F-0CC8-6FB33892BCD0">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>FACTURACION</sourceObjSchema>
+<sourceObjName>ID_VENTA</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6AE09226-973F-C09D-EE4E-1DEBED7F609F" referredColumn="61F86C3E-E087-0139-1857-2C61D60EC76B"/>
+</associations>
+</Column>
+<Column name="DNICLIENTE" id="DBD1FE8A-F569-6CD8-1D68-B5014854D61E">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>FACTURACION</sourceObjSchema>
+<sourceObjName>DNICLIENTE</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65A93F5B-7704-3CDC-539B-5DFD8EB9DB1B" referredColumn="BBA409B3-0FA3-2895-81AB-9433817DB833"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="26DEF068-56DE-0559-8850-466A503C79C8" schemaObject="C60D2F7F-D513-C09B-47DF-1F39335E65E7" name="FACTURACION_PK">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C007706</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05E070C7-8312-8872-0487-1BA677F0A00D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B36EF62-4B4F-437C-2D09-C5D3C6D401CB" name="FK_FACT_CLI">
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:23 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBD1FE8A-F569-6CD8-1D68-B5014854D61E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C680F4C-D388-38BF-C7AD-5D9B91E9F8E1" name="FK_FACT_VENTA">
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:23 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66530745-8440-A79F-0CC8-6FB33892BCD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

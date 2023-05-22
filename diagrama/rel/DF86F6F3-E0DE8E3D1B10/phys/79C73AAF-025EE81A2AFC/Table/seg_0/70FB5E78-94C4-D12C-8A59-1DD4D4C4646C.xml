@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="VENTA" directorySegmentName="seg_0" id="70FB5E78-94C4-D12C-8A59-1DD4D4C4646C">
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:21 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<schemaObject>C60D2F7F-D513-C09B-47DF-1F39335E65E7</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E07DF5AF-F2FF-D468-11BC-F8A072C085D7</segment>
+<tableSpace>7A10F07C-DD69-273E-D3A1-88F1A8BB0208</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TOTALVENTA" id="471147B5-6797-1657-3B58-0B9A5C0ADD88">
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_VENTA" id="61F86C3E-E087-0139-1857-2C61D60EC76B">
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DNI_CLIENTE" id="72CF0630-84E3-61EA-9EF7-1C81A1CEE2A3">
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PRODUCTO" id="88D32BC1-DF8D-9272-CB3D-100E5A6AF678">
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHAVENTA" id="BEBCF404-4CE7-46D4-107C-65AC55B798FC">
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_VENT_CLI" id="0AC55C20-2CC1-80B0-CCD3-B5EB8199C376">
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:23 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ID_PRODUCTO" id="F2E17F11-265E-64D6-1B73-9F39232DDAC1">
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:23 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="VENTA_PK" id="009C6DE7-BD48-CE37-6EBD-7FD9559F91DA">
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:23 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<schemaObject>C60D2F7F-D513-C09B-47DF-1F39335E65E7</schemaObject>
+<segment>A34E1E3D-DD07-B639-71ED-CF7D3E95B2FD</segment>
+<tableSpace>7A10F07C-DD69-273E-D3A1-88F1A8BB0208</tableSpace>
+<indexSegment>A34E1E3D-DD07-B639-71ED-CF7D3E95B2FD</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

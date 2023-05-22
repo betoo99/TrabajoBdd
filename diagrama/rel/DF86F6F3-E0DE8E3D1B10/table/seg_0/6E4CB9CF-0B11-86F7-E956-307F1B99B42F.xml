@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E4CB9CF-0B11-86F7-E956-307F1B99B42F" schemaObject="C60D2F7F-D513-C09B-47DF-1F39335E65E7" name="PRODUCTOS">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>PRODUCTOS</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:21 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRODUCTO" id="F89E787A-6018-0DDD-1854-1EB1F092E891">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>PRODUCTOS</sourceObjSchema>
+<sourceObjName>ID_PRODUCTO</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="94EF93F2-3C58-D43E-63B2-167F6315A251">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>PRODUCTOS</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80 BYTE</dataTypeSize>
+<ownDataTypeParameters>80 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIA" id="E5ADAF0D-1422-EEDC-DEE3-FA0B18A7F37E">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>PRODUCTOS</sourceObjSchema>
+<sourceObjName>CATEGORIA</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="0C624F9C-9D7D-D4C9-4131-D5A76E25AA5C">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>PRODUCTOS</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNIPROVEEDOR" id="CE0E6A0C-BA8F-CD91-EBE5-61082022F3CC">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>PRODUCTOS</sourceObjSchema>
+<sourceObjName>DNIPROVEEDOR</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="662032F6-EAAA-5F2D-759E-655515A1C200" referredColumn="4495F0E9-1F41-B574-D109-CD4833DE2759"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5FED948-81C6-4823-4636-2372CDBE5948" schemaObject="C60D2F7F-D513-C09B-47DF-1F39335E65E7" name="PRODUCTOS_PK">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C007701</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F89E787A-6018-0DDD-1854-1EB1F092E891"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19B93060-3D00-9017-E696-03BB9EF7E276" name="FK_PROD_PROVEEDOR">
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:23 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE0E6A0C-BA8F-CD91-EBE5-61082022F3CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

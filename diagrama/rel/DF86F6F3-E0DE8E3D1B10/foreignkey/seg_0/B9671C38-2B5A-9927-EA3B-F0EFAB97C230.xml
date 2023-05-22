@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B9671C38-2B5A-9927-EA3B-F0EFAB97C230" containerWithKeyObject="67C2E6C0-38EF-C05E-9EA4-79FCEFD0C1E6" localFKIndex="4D00E2FE-BBCE-67D2-68E2-49385899F1CF" name="FK_COMPRAS_PRODUCTO">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>FK_COMPRAS_PRODUCTO</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:23 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<referredTableLongName>SYS.PRODUCTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6E4CB9CF-0B11-86F7-E956-307F1B99B42F</referredTableID>
+<keyObject>F5FED948-81C6-4823-4636-2372CDBE5948</keyObject>
+<referredKeyID>F5FED948-81C6-4823-4636-2372CDBE5948</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_PRODUCTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

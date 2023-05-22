@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67C2E6C0-38EF-C05E-9EA4-79FCEFD0C1E6" schemaObject="C60D2F7F-D513-C09B-47DF-1F39335E65E7" name="COMPRAS">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>COMPRAS</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:21 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_COMPRA" id="84E01840-A85E-F0E9-389B-DE082AAD3843">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>COMPRAS</sourceObjSchema>
+<sourceObjName>ID_COMPRA</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PRODUCTO" id="1D81C6FC-739E-F04A-13E9-9A34C639B683">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>COMPRAS</sourceObjSchema>
+<sourceObjName>ID_PRODUCTO</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9671C38-2B5A-9927-EA3B-F0EFAB97C230" referredColumn="F89E787A-6018-0DDD-1854-1EB1F092E891"/>
+</associations>
+</Column>
+<Column name="DNI_PROVEEDOR" id="F3493953-6EDA-3E6A-D404-4F8DFA933708">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>COMPRAS</sourceObjSchema>
+<sourceObjName>DNI_PROVEEDOR</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="559EEA43-649F-5F41-90F1-D34E64AA176D" referredColumn="4495F0E9-1F41-B574-D109-CD4833DE2759"/>
+</associations>
+</Column>
+<Column name="CANTIDAD" id="C0425A73-E7A3-DDDA-44DC-1F73EFBB2BBF">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>COMPRAS</sourceObjSchema>
+<sourceObjName>CANTIDAD</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHACOMPRA" id="EAFE58CF-8343-1D96-50DF-83DD00495671">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>COMPRAS</sourceObjSchema>
+<sourceObjName>FECHACOMPRA</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO" id="25C2EABD-8A59-83D8-7FDB-A74396367E31">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>COMPRAS</sourceObjSchema>
+<sourceObjName>PRECIO</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="310185C2-C429-9B11-B1C0-CC16B7C47ACF" schemaObject="C60D2F7F-D513-C09B-47DF-1F39335E65E7" name="COMPRAS_PK">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C007709</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:22 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84E01840-A85E-F0E9-389B-DE082AAD3843"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D00E2FE-BBCE-67D2-68E2-49385899F1CF" name="FK_COMPRAS_PRODUCTO">
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:23 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D81C6FC-739E-F04A-13E9-9A34C639B683"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69FF2C10-5C1F-8336-6E5C-C86A66832CD8" name="FK_COMPRAS_PROVEEDOR">
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:23 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3493953-6EDA-3E6A-D404-4F8DFA933708"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

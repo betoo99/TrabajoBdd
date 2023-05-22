@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1B56BBDD-7007-BC9F-18A5-81832635F4A6" containerWithKeyObject="4BC80DCB-40BB-F967-3133-ADE525AD5FB7" localFKIndex="A008F605-F569-7075-0F1A-B09CD7B10C2F" name="FK_DNI">
+<sourceConnName>XE-SYS</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>FK_DNI</sourceObjName>
+<createdBy>beto</createdBy>
+<createdTime>2023-05-22 16:28:23 UTC</createdTime>
+<ownerDesignName>diagrama</ownerDesignName>
+<referredTableLongName>SYS.PROVEEDORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>545953F8-8F43-C9CD-7243-FBC0655C36A9</referredTableID>
+<keyObject>CB5B0BAD-AEB9-5B3E-D79A-0CFB3161993D</keyObject>
+<referredKeyID>CB5B0BAD-AEB9-5B3E-D79A-0CFB3161993D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DNI</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
